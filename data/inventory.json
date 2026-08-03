@@ -1,0 +1,165 @@
+{
+  "items": {
+    "Personal Care | Dove shampoo": {
+      "category": "Personal Care",
+      "product": "Dove shampoo",
+      "stock": 100,
+      "reorder_level": 0,
+      "updated_at": "2026-07-31T23:02:29"
+    },
+    "Personal Care | Pantene shampoo": {
+      "category": "Personal Care",
+      "product": "Pantene shampoo",
+      "stock": 100,
+      "reorder_level": 0,
+      "updated_at": "2026-07-31T23:02:29"
+    },
+    "Tresemma | Personal Care": {
+      "category": "Personal Care",
+      "product": "Tresemma",
+      "stock": 100,
+      "reorder_level": 0,
+      "updated_at": "2026-07-31T22:35:32"
+    },
+    "Personal Care | Head and Shoulders shampoo": {
+      "category": "Personal Care",
+      "product": "Head and Shoulders shampoo",
+      "stock": 100,
+      "reorder_level": 0,
+      "updated_at": "2026-07-31T23:02:29"
+    },
+    "Loreal | Personal Care": {
+      "category": "Personal Care",
+      "product": "Loreal",
+      "stock": 100,
+      "reorder_level": 0,
+      "updated_at": "2026-07-31T22:35:32"
+    },
+    "Himalaya | Personal Care": {
+      "category": "Personal Care",
+      "product": "Himalaya",
+      "stock": 100,
+      "reorder_level": 0,
+      "updated_at": "2026-07-31T22:35:32"
+    },
+    "Personal Care | TRESemme shampoo": {
+      "category": "Personal Care",
+      "product": "Tresemme shampoo",
+      "stock": 100,
+      "reorder_level": 0,
+      "updated_at": "2026-07-31T22:51:42"
+    },
+    "Kesh King | cosmetic product": {
+      "category": "Kesh King",
+      "product": "cosmetic product",
+      "stock": 100,
+      "reorder_level": 0,
+      "updated_at": "2026-07-31T22:35:32"
+    },
+    "Personal Care | Tresemma": {
+      "category": "Personal Care",
+      "product": "Tresemma",
+      "stock": 100,
+      "reorder_level": 0,
+      "updated_at": "2026-07-31T23:02:29"
+    },
+    "Personal Care | Kesh King": {
+      "category": "Personal Care",
+      "product": "Kesh King",
+      "stock": 100,
+      "reorder_level": 0,
+      "updated_at": "2026-07-31T23:02:29"
+    },
+    "Personal Care | meera": {
+      "category": "Personal Care",
+      "product": "meera",
+      "stock": 100,
+      "reorder_level": 0,
+      "updated_at": "2026-07-31T23:02:29"
+    },
+    "Soft Drinks | Sprite can": {
+      "category": "Soft Drinks",
+      "product": "Sprite can",
+      "stock": 23,
+      "reorder_level": 80,
+      "updated_at": "2026-08-03T16:16:19"
+    },
+    "Soft Drinks | Green Sands bottle": {
+      "category": "Soft Drinks",
+      "product": "Green Sands bottle",
+      "stock": 27,
+      "reorder_level": 80,
+      "updated_at": "2026-08-03T16:16:19"
+    },
+    "Soft Drinks | Coca Cola can": {
+      "category": "Soft Drinks",
+      "product": "Coca Cola can",
+      "stock": 45,
+      "reorder_level": 80,
+      "updated_at": "2026-08-03T16:16:19"
+    },
+    "Soft Drink | AandW": {
+      "category": "Soft Drink",
+      "product": "AandW",
+      "stock": 24,
+      "reorder_level": 80,
+      "updated_at": "2026-08-03T16:16:19"
+    },
+    "Soft Drink | Green Sand bottle": {
+      "category": "Soft Drink",
+      "product": "Green Sand bottle",
+      "stock": 10,
+      "reorder_level": 80,
+      "updated_at": "2026-08-03T16:16:19"
+    },
+    "Sports Drinks | sports drink": {
+      "category": "Sports Drinks",
+      "product": "sports drink",
+      "stock": 100,
+      "reorder_level": 0,
+      "updated_at": "2026-07-31T23:26:16"
+    },
+    "Energy Drinks | Coco Cola can": {
+      "category": "Energy Drinks",
+      "product": "Coco Cola can",
+      "stock": 2,
+      "reorder_level": 80,
+      "updated_at": "2026-08-03T16:16:19"
+    },
+    "Beverages | water bottle": {
+      "category": "Beverages",
+      "product": "water bottle",
+      "stock": 4,
+      "reorder_level": 80,
+      "updated_at": "2026-08-03T16:16:19"
+    },
+    "Soft Drink | Fanta": {
+      "category": "Soft Drink",
+      "product": "Fanta",
+      "stock": 7,
+      "reorder_level": 80,
+      "updated_at": "2026-08-03T16:16:19"
+    },
+    "Soft Drink | Coco Cola": {
+      "category": "Soft Drink",
+      "product": "Coco Cola",
+      "stock": 3,
+      "reorder_level": 80,
+      "updated_at": "2026-08-03T16:16:19"
+    },
+    "Personal Care | Himalaya": {
+      "category": "Personal Care",
+      "product": "Himalaya",
+      "stock": 100,
+      "reorder_level": 10,
+      "updated_at": "2026-07-31T23:27:17"
+    },
+    "sports drink | Polaris": {
+      "category": "sports drink",
+      "product": "Polaris",
+      "stock": 9,
+      "reorder_level": 80,
+      "updated_at": "2026-08-03T16:16:19"
+    }
+  }
+}

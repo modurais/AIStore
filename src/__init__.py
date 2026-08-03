@@ -1,0 +1,1 @@
+"""Shelf product detection package."""

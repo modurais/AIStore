@@ -1,0 +1,35 @@
+{
+  "images": [
+    {
+      "image": "shampoo.jpeg",
+      "counts": {
+        "Personal Care | Herbal Essences shampoo": 15,
+        "Personal Care | Dove shampoo": 8,
+        "Personal Care | Pantene shampoo": 7,
+        "Personal Care | Head and Shoulders shampoo": 22,
+        "Personal Care | TEST_CORRECTED_HAIR_SPRAY": 1,
+        "Personal Care | cosmetic product": 5,
+        "Personal Care | lotion bottle": 8,
+        "Personal Care | personal care item": 11,
+        "Personal Care | TRESemme shampoo": 13,
+        "Personal Care | hair product": 1,
+        "Personal Care | conditioner": 1,
+        "Personal Care | container": 1
+      }
+    }
+  ],
+  "totals": {
+    "Personal Care | Herbal Essences shampoo": 15,
+    "Personal Care | Dove shampoo": 8,
+    "Personal Care | Pantene shampoo": 7,
+    "Personal Care | Head and Shoulders shampoo": 22,
+    "Personal Care | TEST_CORRECTED_HAIR_SPRAY": 1,
+    "Personal Care | cosmetic product": 5,
+    "Personal Care | lotion bottle": 8,
+    "Personal Care | personal care item": 11,
+    "Personal Care | TRESemme shampoo": 13,
+    "Personal Care | hair product": 1,
+    "Personal Care | conditioner": 1,
+    "Personal Care | container": 1
+  }
+}

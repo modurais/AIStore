@@ -1,0 +1,37 @@
+{
+  "images": [
+    {
+      "image": "shampoo.jpeg",
+      "counts": {
+        "Soft Drinks | Green Sands bottle": 5,
+        "Sports Drinks | sports drink": 27,
+        "Energy Drinks | energy drink can": 13,
+        "Beverages | coffee drink": 1,
+        "Beverages | juice box": 6,
+        "Dairy | milk carton": 25,
+        "Alcoholic Drinks | beer bottle": 1,
+        "Soft Drinks | Pepsi can": 2,
+        "Soft Drinks | Sprite can": 4,
+        "Beverages | water bottle": 3,
+        "Beverages | fruit juice": 3,
+        "Soft Drinks | 7UP can": 2,
+        "Alcoholic Drinks | wine bottle": 1
+      }
+    }
+  ],
+  "totals": {
+    "Soft Drinks | Green Sands bottle": 5,
+    "Sports Drinks | sports drink": 27,
+    "Energy Drinks | energy drink can": 13,
+    "Beverages | coffee drink": 1,
+    "Beverages | juice box": 6,
+    "Dairy | milk carton": 25,
+    "Alcoholic Drinks | beer bottle": 1,
+    "Soft Drinks | Pepsi can": 2,
+    "Soft Drinks | Sprite can": 4,
+    "Beverages | water bottle": 3,
+    "Beverages | fruit juice": 3,
+    "Soft Drinks | 7UP can": 2,
+    "Alcoholic Drinks | wine bottle": 1
+  }
+}

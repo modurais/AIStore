@@ -1,0 +1,107 @@
+{
+  "profiles": {
+    "beverage": {
+      "7UP can": {
+        "category": "Soft Drinks",
+        "name": "Green Sand bottle",
+        "prompt": "Green Sand bottle"
+      },
+      "beer bottle": {
+        "category": "Soft Drink",
+        "name": "Fanta",
+        "prompt": "Fanta"
+      },
+      "energy drink can": {
+        "category": "Energy Drinks",
+        "name": "Coco Cola can",
+        "prompt": "Coco Cola can"
+      },
+      "Fanta": {
+        "category": "Soft Drinks",
+        "name": "Fanta",
+        "prompt": "Fanta"
+      },
+      "Fanta can": {
+        "category": "Soft Drinks",
+        "name": "AandW",
+        "prompt": "AandW"
+      },
+      "Green Sand bottle": {
+        "category": "Soft Drinks",
+        "name": "Green Sands bottle",
+        "prompt": "Green Sands bottle"
+      },
+      "milk carton": {
+        "category": "Soft Drinks",
+        "name": "AandW",
+        "prompt": "AandW"
+      },
+      "soda can": {
+        "category": "Soft Drinks",
+        "name": "AandW",
+        "prompt": "AandW"
+      },
+      "wine bottle": {
+        "category": "Soft Drinks",
+        "name": "Coco Cola",
+        "prompt": "Coco Cola"
+      },
+      "fanta": {
+        "wrong_name": "Fanta",
+        "category": "Soft Drinks",
+        "name": "Fanta",
+        "prompt": "Fanta"
+      },
+      "sports drink": {
+        "wrong_name": "sports drink",
+        "category": "sports drink",
+        "name": "Polaris",
+        "prompt": "Polaris"
+      }
+    },
+    "shampoo": {
+      "cosmetic product": {
+        "wrong_name": "cosmetic product",
+        "category": "Personal Care",
+        "name": "Kesh King",
+        "prompt": "Kesh King"
+      },
+      "hair spray": {
+        "wrong_name": "hair spray",
+        "category": "Personal Care",
+        "name": "Loreal",
+        "prompt": "Personal Care"
+      },
+      "herbal essences shampoo": {
+        "wrong_name": "Herbal Essences shampoo",
+        "category": "Personal Care",
+        "name": "Tresemma",
+        "prompt": "Personal Care"
+      },
+      "lotion bottle": {
+        "wrong_name": "lotion bottle",
+        "category": "Personal Care",
+        "name": "Tresemma",
+        "prompt": "Personal Care"
+      },
+      "personal care item": {
+        "wrong_name": "personal care item",
+        "category": "Personal Care",
+        "name": "Himalaya",
+        "prompt": "Personal Care"
+      },
+      "personal care": {
+        "wrong_name": "Personal Care",
+        "category": "Personal Care",
+        "name": "Trsemms",
+        "prompt": "Trsemms"
+      },
+      "tresemme shampoo": {
+        "wrong_name": "TRESemme shampoo",
+        "category": "Personal Care",
+        "name": "meera",
+        "prompt": "meera"
+      }
+    }
+  }
+}

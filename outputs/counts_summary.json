@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "image": "cooldrinks.jpg",
+      "counts": {
+        "Soft Drinks | Sprite": 5,
+        "Soft Drinks | Coca-Cola": 17,
+        "Soft Drinks | 7UP": 2,
+        "Soft Drinks | Fanta": 6
+      }
+    }
+  ],
+  "totals": {
+    "Soft Drinks | Sprite": 5,
+    "Soft Drinks | Coca-Cola": 17,
+    "Soft Drinks | 7UP": 2,
+    "Soft Drinks | Fanta": 6
+  }
+}

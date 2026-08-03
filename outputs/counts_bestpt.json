@@ -1,0 +1,47 @@
+{
+  "images": [
+    {
+      "image": "cooldrinks.jpg",
+      "counts": {
+        "Soft Drinks | Sprite can": 25,
+        "Soft Drinks | Green Sands bottle": 26,
+        "Soft Drinks | Coca Cola can": 36,
+        "Soft Drinks | Fanta can": 17,
+        "Soft Drinks | carbonated drink": 9,
+        "Soft Drinks | soft drink": 8,
+        "Alcoholic Drinks | alcoholic beverage": 2,
+        "Dairy | milk carton": 2,
+        "Soft Drinks | energy drink can": 2,
+        "Beverages | plastic bottle of drink": 7,
+        "Beverages | drink package": 1,
+        "Soft Drinks | 7UP": 4,
+        "Beverages | glass bottle of drink": 11,
+        "Beverages | drink container": 1,
+        "Beverages | soda can": 2,
+        "Alcoholic Drinks | beer bottle": 1,
+        "Sports Drinks | sports drink": 3,
+        "Beverages | water bottle": 1
+      }
+    }
+  ],
+  "totals": {
+    "Soft Drinks | Sprite can": 25,
+    "Soft Drinks | Green Sands bottle": 26,
+    "Soft Drinks | Coca Cola can": 36,
+    "Soft Drinks | Fanta can": 17,
+    "Soft Drinks | carbonated drink": 9,
+    "Soft Drinks | soft drink": 8,
+    "Alcoholic Drinks | alcoholic beverage": 2,
+    "Dairy | milk carton": 2,
+    "Soft Drinks | energy drink can": 2,
+    "Beverages | plastic bottle of drink": 7,
+    "Beverages | drink package": 1,
+    "Soft Drinks | 7UP": 4,
+    "Beverages | glass bottle of drink": 11,
+    "Beverages | drink container": 1,
+    "Beverages | soda can": 2,
+    "Alcoholic Drinks | beer bottle": 1,
+    "Sports Drinks | sports drink": 3,
+    "Beverages | water bottle": 1
+  }
+}

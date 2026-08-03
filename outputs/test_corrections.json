@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "shampoo": {
+      "hair spray": {
+        "category": "Personal Care",
+        "name": "TEST_CORRECTED_HAIR_SPRAY",
+        "prompt": "TEST_CORRECTED_HAIR_SPRAY"
+      }
+    }
+  }
+}
