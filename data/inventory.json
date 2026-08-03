@@ -82,35 +82,35 @@
       "product": "Sprite can",
       "stock": 23,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T16:16:19"
+      "updated_at": "2026-08-03T21:53:39"
     },
     "Soft Drinks | Green Sands bottle": {
       "category": "Soft Drinks",
       "product": "Green Sands bottle",
       "stock": 27,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T16:16:19"
+      "updated_at": "2026-08-03T21:53:39"
     },
     "Soft Drinks | Coca Cola can": {
       "category": "Soft Drinks",
       "product": "Coca Cola can",
       "stock": 45,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T16:16:19"
+      "updated_at": "2026-08-03T21:53:39"
     },
     "Soft Drink | AandW": {
       "category": "Soft Drink",
       "product": "AandW",
       "stock": 24,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T16:16:19"
+      "updated_at": "2026-08-03T21:53:39"
     },
     "Soft Drink | Green Sand bottle": {
       "category": "Soft Drink",
       "product": "Green Sand bottle",
       "stock": 10,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T16:16:19"
+      "updated_at": "2026-08-03T21:53:39"
     },
     "Sports Drinks | sports drink": {
       "category": "Sports Drinks",
@@ -124,28 +124,28 @@
       "product": "Coco Cola can",
       "stock": 2,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T16:16:19"
+      "updated_at": "2026-08-03T21:53:39"
     },
     "Beverages | water bottle": {
       "category": "Beverages",
       "product": "water bottle",
       "stock": 4,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T16:16:19"
+      "updated_at": "2026-08-03T21:53:39"
     },
     "Soft Drink | Fanta": {
       "category": "Soft Drink",
       "product": "Fanta",
       "stock": 7,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T16:16:19"
+      "updated_at": "2026-08-03T21:53:39"
     },
     "Soft Drink | Coco Cola": {
       "category": "Soft Drink",
       "product": "Coco Cola",
       "stock": 3,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T16:16:19"
+      "updated_at": "2026-08-03T21:53:39"
     },
     "Personal Care | Himalaya": {
       "category": "Personal Care",
@@ -159,7 +159,7 @@
       "product": "Polaris",
       "stock": 9,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T16:16:19"
+      "updated_at": "2026-08-03T21:53:39"
     }
   }
 }
