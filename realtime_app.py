@@ -2,13 +2,12 @@ import json
 import tempfile
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import TYPE_CHECKING, Dict, List, Optional, Tuple
 
 import pandas as pd
 import streamlit as st
 from PIL import Image
 
-from src.classifier import ClipProductClassifier
 from src.config import (
     DEFAULT_CLIP_MODEL,
     DEFAULT_CORRECTIONS_PATH,
@@ -22,14 +21,6 @@ from src.config import (
     get_candidate_products,
     normalize_category,
 )
-from src.corrections import (
-    apply_corrections,
-    list_profile_corrections,
-    load_corrections,
-    save_corrections,
-    set_profile_correction,
-)
-from src.detector import YoloShelfDetector
 from src.inventory import (
     adjust_stock,
     list_items,
@@ -64,9 +55,11 @@ except ImportError:
                 "reorder_level": 0,
                 "updated_at": now,
             }
-from src.pipeline import ProductPrediction, ShelfAnalysisPipeline, summarize_counts
-from src.profile_selector import choose_best_profile
-from src.visualize import draw_predictions
+
+if TYPE_CHECKING:
+    from src.classifier import ClipProductClassifier
+    from src.detector import YoloShelfDetector
+    from src.pipeline import ProductPrediction
 
 
 st.set_page_config(page_title="Shelf Product Counter", page_icon="🛒", layout="wide")
@@ -255,7 +248,10 @@ def load_pipeline(
     clip_model: str,
     det_conf: float,
     det_iou: float,
-) -> Tuple[YoloShelfDetector, Dict[str, ClipProductClassifier]]:
+) -> Tuple["YoloShelfDetector", Dict[str, "ClipProductClassifier"]]:
+    from src.classifier import ClipProductClassifier
+    from src.detector import YoloShelfDetector
+
     detector = YoloShelfDetector(
         model_path=Path(detector_weights),
         confidence=det_conf,
@@ -287,11 +283,16 @@ def save_uploaded_image(data: bytes, suffix: str) -> Path:
 
 
 def run_analysis(
-    detector: YoloShelfDetector,
-    classifiers: Dict[str, ClipProductClassifier],
+    detector: "YoloShelfDetector",
+    classifiers: Dict[str, "ClipProductClassifier"],
     image_path: Path,
     corrections_payload: Dict,
-) -> Tuple[List[ProductPrediction], Dict[str, int], Path, str, Dict[str, float]]:
+) -> Tuple[List["ProductPrediction"], Dict[str, int], Path, str, Dict[str, float]]:
+    from src.corrections import apply_corrections
+    from src.pipeline import ProductPrediction, ShelfAnalysisPipeline, summarize_counts
+    from src.profile_selector import choose_best_profile
+    from src.visualize import draw_predictions
+
     detections = detector.detect(image_path)
     selected_profile, profile_scores = choose_best_profile(
         image_path=image_path,
@@ -532,22 +533,32 @@ def main() -> None:
         st.info("Select an image to start detection.")
 
     if has_input and st.button("Run Detection", type="primary", use_container_width=True):
-        with st.spinner("Loading models and analyzing image..."):
-            corrections_path = Path(DEFAULT_CORRECTIONS_PATH)
-            corrections_payload = load_corrections(corrections_path)
-            detector, classifiers = load_pipeline(
-                detector_weights=detector_weights,
-                clip_model=clip_model,
-                det_conf=det_conf,
-                det_iou=det_iou,
+        try:
+            with st.spinner("Loading models and analyzing image..."):
+                from src.corrections import load_corrections
+
+                corrections_path = Path(DEFAULT_CORRECTIONS_PATH)
+                corrections_payload = load_corrections(corrections_path)
+                detector, classifiers = load_pipeline(
+                    detector_weights=detector_weights,
+                    clip_model=clip_model,
+                    det_conf=det_conf,
+                    det_iou=det_iou,
+                )
+                input_path = save_uploaded_image(data=image_bytes, suffix=image_suffix)
+                predictions, counts, annotated_path, selected_profile, profile_scores = run_analysis(
+                    detector=detector,
+                    classifiers=classifiers,
+                    image_path=input_path,
+                    corrections_payload=corrections_payload,
+                )
+        except Exception as exc:
+            st.error(
+                "Detection dependencies are unavailable in this environment. "
+                f"Details: {exc}"
             )
-            input_path = save_uploaded_image(data=image_bytes, suffix=image_suffix)
-            predictions, counts, annotated_path, selected_profile, profile_scores = run_analysis(
-                detector=detector,
-                classifiers=classifiers,
-                image_path=input_path,
-                corrections_payload=corrections_payload,
-            )
+            return
+
         st.session_state.latest_result = {
             "image_name": image_name,
             "image_bytes": image_bytes,
@@ -577,6 +588,17 @@ def main() -> None:
         f"(beverage={latest_result['profile_scores']['beverage']:.3f}, "
         f"shampoo={latest_result['profile_scores']['shampoo']:.3f})"
     )
+
+    from src.corrections import (
+        apply_corrections,
+        list_profile_corrections,
+        load_corrections,
+        save_corrections,
+        set_profile_correction,
+    )
+    from src.config import ProductLabel
+    from src.pipeline import summarize_counts
+    from src.visualize import draw_predictions
 
     corrections_path = Path(DEFAULT_CORRECTIONS_PATH)
     current_corrections = load_corrections(corrections_path)
