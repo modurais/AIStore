@@ -34,11 +34,36 @@ from src.inventory import (
     adjust_stock,
     list_items,
     load_inventory,
-    reconcile_stock,
     remove_item,
     save_inventory,
     set_item,
 )
+
+try:
+    from src.inventory import reconcile_stock
+except ImportError:
+    # Fallback for environments still loading an older src.inventory module.
+    def reconcile_stock(payload: Dict, counts: Dict[str, int]) -> None:
+        items = payload.setdefault("items", {})
+        now = datetime.now().isoformat(timespec="seconds")
+        for key, value in counts.items():
+            amount = int(value)
+            if amount < 0:
+                continue
+            if key in items:
+                items[key]["stock"] = amount
+                items[key]["updated_at"] = now
+                continue
+            if "|" not in key:
+                continue
+            category, product = [part.strip() for part in key.split("|", maxsplit=1)]
+            items[key] = {
+                "category": category,
+                "product": product,
+                "stock": amount,
+                "reorder_level": 0,
+                "updated_at": now,
+            }
 from src.pipeline import ProductPrediction, ShelfAnalysisPipeline, summarize_counts
 from src.profile_selector import choose_best_profile
 from src.visualize import draw_predictions
