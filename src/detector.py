@@ -1,8 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import List
-
-from ultralytics import YOLO
+from typing import Any, List
 
 
 @dataclass
@@ -19,7 +17,18 @@ class YoloShelfDetector:
         self.model_path = Path(model_path)
         self.confidence = confidence
         self.iou = iou
-        self.model = YOLO(str(self.model_path))
+        self.model = self._load_model()
+
+    def _load_model(self) -> Any:
+        try:
+            from ultralytics import YOLO
+        except Exception as exc:
+            raise RuntimeError(
+                "Ultralytics/OpenCV dependencies are unavailable. "
+                "Install required runtime libraries (for Streamlit Cloud keep libgl1 in packages.txt)."
+            ) from exc
+
+        return YOLO(str(self.model_path))
 
     def detect(self, image_path: Path) -> List[Detection]:
         results = self.model.predict(
