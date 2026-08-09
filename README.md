@@ -1,3 +1,13 @@
+---
+title: Retail AI Shelf Intelligence
+emoji: "🛒"
+colorFrom: blue
+colorTo: teal
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Shelf Product Detection and Counting (YOLO + CLIP + SKU110K)
 
 This project detects products on a supermarket shelf, classifies each product into a category/name such as:
