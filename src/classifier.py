@@ -1,5 +1,6 @@
 from dataclasses import dataclass
-from typing import Iterable, List, Optional
+from functools import lru_cache
+from typing import Any, Iterable, List, Optional, Tuple
 
 from PIL import Image
 
@@ -12,6 +13,22 @@ class ClassificationResult:
     score: float
 
 
+@lru_cache(maxsize=2)
+def _load_clip_model(model_name: str, device: str) -> Tuple[Any, Any]:
+    """Load (and cache) a single CLIP model/processor pair per model name.
+
+    Multiple ClipProductClassifier instances (e.g. "beverage" and "shampoo")
+    reuse the same underlying model weights instead of each loading their own
+    copy, which roughly halves memory usage on constrained hosts (e.g.
+    Streamlit Community Cloud's 1 GB RAM tier).
+    """
+    from transformers import CLIPModel, CLIPProcessor
+
+    model = CLIPModel.from_pretrained(model_name).to(device)
+    processor = CLIPProcessor.from_pretrained(model_name)
+    return model, processor
+
+
 class ClipProductClassifier:
     def __init__(
         self,
@@ -22,7 +39,6 @@ class ClipProductClassifier:
     ):
         try:
             import torch
-            from transformers import CLIPModel, CLIPProcessor
         except Exception as exc:
             raise RuntimeError(
                 "Torch/Transformers dependencies are unavailable in this runtime."
@@ -30,8 +46,7 @@ class ClipProductClassifier:
 
         self._torch = torch
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.model = CLIPModel.from_pretrained(model_name).to(self.device)
-        self.processor = CLIPProcessor.from_pretrained(model_name)
+        self.model, self.processor = _load_clip_model(model_name, self.device)
         self.labels: List[ProductLabel] = list(candidate_labels)
         self.prompts = [label.prompt for label in self.labels]
         self.negative_prompts: List[str] = list(negative_prompts or [])
