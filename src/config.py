@@ -212,6 +212,7 @@ DEFAULT_DETECTION_IOU = 0.30
 DEFAULT_CLIP_MODEL = "openai/clip-vit-base-patch32"
 DEFAULT_CORRECTIONS_PATH = Path("data/label_corrections.json")
 DEFAULT_INVENTORY_PATH = Path("data/inventory.json")
+DEFAULT_PLANOGRAM_PATH = Path("data/planogram.json")
 
 # Prompts used to reject detections that look like shelf signage/price tags/text blocks.
 NON_PRODUCT_PROMPTS = [

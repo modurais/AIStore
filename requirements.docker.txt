@@ -1,0 +1,7 @@
+-r requirements.txt
+ultralytics>=8.2.0
+transformers>=4.44.0
+torch>=2.3.0
+torchvision>=0.18.0
+safetensors>=0.4.3
+opencv-python-headless>=4.10.0.84

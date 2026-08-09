@@ -1,0 +1,15 @@
+.git
+.gitignore
+.venv
+.vscode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+outputs/
+*.ipynb
+Group_1_Capstone_Project_Report*.pdf
+Group_1_Capstone_Project_Report*.md
+Capstone_Project_Demo_Group1.pptx
+Retail_AI_Presentation.pptx

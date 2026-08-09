@@ -57,6 +57,18 @@
         "category": "sports drink",
         "name": "Polaris",
         "prompt": "Polaris"
+      },
+      "coco cola can": {
+        "wrong_name": "Coco Cola can",
+        "category": "Soft Drink",
+        "name": "coca cola can",
+        "prompt": "coca cola can"
+      },
+      "coca cola can": {
+        "wrong_name": "coca cola can",
+        "category": "Soft Drink",
+        "name": "Coca Cola can",
+        "prompt": "Coca Cola can"
       }
     },
     "shampoo": {

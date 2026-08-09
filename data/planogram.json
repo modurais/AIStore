@@ -1,0 +1,151 @@
+{
+  "items": {
+    "Personal Care | Kesh King": {
+      "category": "Personal Care",
+      "product": "Kesh King",
+      "expected_facings": 10,
+      "full_stock_units": 100,
+      "reorder_level": 20
+    },
+    "Soft Drinks | Green Sands bottle": {
+      "category": "Soft Drinks",
+      "product": "Green Sands bottle",
+      "expected_facings": 10,
+      "full_stock_units": 27,
+      "reorder_level": 80
+    },
+    "Soft Drinks | Coca Cola can": {
+      "category": "Soft Drinks",
+      "product": "Coca Cola can",
+      "expected_facings": 10,
+      "full_stock_units": 45,
+      "reorder_level": 80
+    },
+    "Soft Drink | AandW": {
+      "category": "Soft Drink",
+      "product": "AandW",
+      "expected_facings": 10,
+      "full_stock_units": 24,
+      "reorder_level": 80
+    },
+    "Soft Drink | Fanta": {
+      "category": "Soft Drink",
+      "product": "Fanta",
+      "expected_facings": 7,
+      "full_stock_units": 7,
+      "reorder_level": 80
+    },
+    "Soft Drink | Coco Cola": {
+      "category": "Soft Drink",
+      "product": "Coco Cola",
+      "expected_facings": 3,
+      "full_stock_units": 3,
+      "reorder_level": 80
+    },
+    "Sports Drinks | sports drink": {
+      "category": "Sports Drinks",
+      "product": "sports drink",
+      "expected_facings": 10,
+      "full_stock_units": 100,
+      "reorder_level": 20
+    },
+    "Beverages | water bottle": {
+      "category": "Beverages",
+      "product": "water bottle",
+      "expected_facings": 5,
+      "full_stock_units": 100,
+      "reorder_level": 80
+    },
+    "Personal Care | Pantene shampoo": {
+      "category": "Personal Care",
+      "product": "Pantene shampoo",
+      "expected_facings": 10,
+      "full_stock_units": 100,
+      "reorder_level": 20
+    },
+    "Personal Care | Tresemme shampoo": {
+      "category": "Personal Care",
+      "product": "Tresemme shampoo",
+      "expected_facings": 10,
+      "full_stock_units": 100,
+      "reorder_level": 20
+    },
+    "Personal Care | Dove shampoo": {
+      "category": "Personal Care",
+      "product": "Dove shampoo",
+      "expected_facings": 10,
+      "full_stock_units": 100,
+      "reorder_level": 20
+    },
+    "Energy Drinks | Coco Cola can": {
+      "category": "Energy Drinks",
+      "product": "Coco Cola can",
+      "expected_facings": 2,
+      "full_stock_units": 2,
+      "reorder_level": 80
+    },
+    "Kesh King | cosmetic product": {
+      "category": "Kesh King",
+      "product": "cosmetic product",
+      "expected_facings": 10,
+      "full_stock_units": 100,
+      "reorder_level": 20
+    },
+    "sports drink | Polaris": {
+      "category": "sports drink",
+      "product": "Polaris",
+      "expected_facings": 9,
+      "full_stock_units": 9,
+      "reorder_level": 80
+    },
+    "Personal Care | Head and Shoulders shampoo": {
+      "category": "Personal Care",
+      "product": "Head and Shoulders shampoo",
+      "expected_facings": 10,
+      "full_stock_units": 100,
+      "reorder_level": 20
+    },
+    "Personal Care | meera": {
+      "category": "Personal Care",
+      "product": "meera",
+      "expected_facings": 10,
+      "full_stock_units": 100,
+      "reorder_level": 20
+    },
+    "Soft Drinks | Sprite can": {
+      "category": "Soft Drinks",
+      "product": "Sprite can",
+      "expected_facings": 10,
+      "full_stock_units": 23,
+      "reorder_level": 80
+    },
+    "Soft Drink | Green Sand bottle": {
+      "category": "Soft Drink",
+      "product": "Green Sand bottle",
+      "expected_facings": 10,
+      "full_stock_units": 10,
+      "reorder_level": 80
+    },
+    "Personal Care | Tresemma": {
+      "category": "Personal Care",
+      "product": "Tresemma",
+      "expected_facings": 10,
+      "full_stock_units": 100,
+      "reorder_level": 20
+    },
+    "Personal Care | Loreal": {
+      "category": "Personal Care",
+      "product": "Loreal",
+      "expected_facings": 10,
+      "full_stock_units": 100,
+      "reorder_level": 20
+    },
+    "Personal Care | Himalaya": {
+      "category": "Personal Care",
+      "product": "Himalaya",
+      "expected_facings": 10,
+      "full_stock_units": 100,
+      "reorder_level": 10
+    }
+  }
+}

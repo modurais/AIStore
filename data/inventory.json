@@ -3,16 +3,16 @@
     "Personal Care | Dove shampoo": {
       "category": "Personal Care",
       "product": "Dove shampoo",
-      "stock": 100,
-      "reorder_level": 0,
-      "updated_at": "2026-07-31T23:02:29"
+      "stock": 8,
+      "reorder_level": 20,
+      "updated_at": "2026-08-08T17:38:14"
     },
     "Personal Care | Pantene shampoo": {
       "category": "Personal Care",
       "product": "Pantene shampoo",
-      "stock": 100,
-      "reorder_level": 0,
-      "updated_at": "2026-07-31T23:02:29"
+      "stock": 7,
+      "reorder_level": 20,
+      "updated_at": "2026-08-08T17:38:14"
     },
     "Tresemma | Personal Care": {
       "category": "Personal Care",
@@ -24,9 +24,9 @@
     "Personal Care | Head and Shoulders shampoo": {
       "category": "Personal Care",
       "product": "Head and Shoulders shampoo",
-      "stock": 100,
-      "reorder_level": 0,
-      "updated_at": "2026-07-31T23:02:29"
+      "stock": 20,
+      "reorder_level": 20,
+      "updated_at": "2026-08-08T17:38:14"
     },
     "Loreal | Personal Care": {
       "category": "Personal Care",
@@ -52,114 +52,128 @@
     "Kesh King | cosmetic product": {
       "category": "Kesh King",
       "product": "cosmetic product",
-      "stock": 100,
-      "reorder_level": 0,
-      "updated_at": "2026-07-31T22:35:32"
+      "stock": 0,
+      "reorder_level": 20,
+      "updated_at": "2026-08-07T15:23:43"
     },
     "Personal Care | Tresemma": {
       "category": "Personal Care",
       "product": "Tresemma",
-      "stock": 100,
-      "reorder_level": 0,
-      "updated_at": "2026-07-31T23:02:29"
+      "stock": 22,
+      "reorder_level": 20,
+      "updated_at": "2026-08-08T17:38:14"
     },
     "Personal Care | Kesh King": {
       "category": "Personal Care",
       "product": "Kesh King",
-      "stock": 100,
-      "reorder_level": 0,
-      "updated_at": "2026-07-31T23:02:29"
+      "stock": 2,
+      "reorder_level": 20,
+      "updated_at": "2026-08-08T17:38:14"
     },
     "Personal Care | meera": {
       "category": "Personal Care",
       "product": "meera",
-      "stock": 100,
-      "reorder_level": 0,
-      "updated_at": "2026-07-31T23:02:29"
+      "stock": 11,
+      "reorder_level": 20,
+      "updated_at": "2026-08-08T17:38:14"
     },
     "Soft Drinks | Sprite can": {
       "category": "Soft Drinks",
       "product": "Sprite can",
       "stock": 23,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T21:53:39"
+      "updated_at": "2026-08-08T11:57:42"
     },
     "Soft Drinks | Green Sands bottle": {
       "category": "Soft Drinks",
       "product": "Green Sands bottle",
       "stock": 27,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T21:53:39"
+      "updated_at": "2026-08-08T11:57:42"
     },
     "Soft Drinks | Coca Cola can": {
       "category": "Soft Drinks",
       "product": "Coca Cola can",
       "stock": 45,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T21:53:39"
+      "updated_at": "2026-08-08T11:57:42"
     },
     "Soft Drink | AandW": {
       "category": "Soft Drink",
       "product": "AandW",
       "stock": 24,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T21:53:39"
+      "updated_at": "2026-08-08T11:57:42"
     },
     "Soft Drink | Green Sand bottle": {
       "category": "Soft Drink",
       "product": "Green Sand bottle",
       "stock": 10,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T21:53:39"
+      "updated_at": "2026-08-08T11:57:42"
     },
     "Sports Drinks | sports drink": {
       "category": "Sports Drinks",
       "product": "sports drink",
-      "stock": 100,
-      "reorder_level": 0,
-      "updated_at": "2026-07-31T23:26:16"
+      "stock": 0,
+      "reorder_level": 20,
+      "updated_at": "2026-08-07T15:23:43"
     },
     "Energy Drinks | Coco Cola can": {
       "category": "Energy Drinks",
       "product": "Coco Cola can",
       "stock": 2,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T21:53:39"
+      "updated_at": "2026-08-08T11:57:42"
     },
     "Beverages | water bottle": {
       "category": "Beverages",
       "product": "water bottle",
       "stock": 4,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T21:53:39"
+      "updated_at": "2026-08-08T11:57:42"
     },
     "Soft Drink | Fanta": {
       "category": "Soft Drink",
       "product": "Fanta",
       "stock": 7,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T21:53:39"
+      "updated_at": "2026-08-08T11:57:42"
     },
     "Soft Drink | Coco Cola": {
       "category": "Soft Drink",
       "product": "Coco Cola",
       "stock": 3,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T21:53:39"
+      "updated_at": "2026-08-08T11:57:42"
     },
     "Personal Care | Himalaya": {
       "category": "Personal Care",
       "product": "Himalaya",
-      "stock": 100,
+      "stock": 8,
       "reorder_level": 10,
-      "updated_at": "2026-07-31T23:27:17"
+      "updated_at": "2026-08-08T17:38:14"
     },
     "sports drink | Polaris": {
       "category": "sports drink",
       "product": "Polaris",
       "stock": 9,
       "reorder_level": 80,
-      "updated_at": "2026-08-03T21:53:39"
+      "updated_at": "2026-08-08T11:57:42"
+    },
+    "Personal Care | Loreal": {
+      "category": "Personal Care",
+      "product": "Loreal",
+      "stock": 1,
+      "reorder_level": 20,
+      "updated_at": "2026-08-08T17:38:14"
+    },
+    "Personal Care | Tresemme shampoo": {
+      "category": "Personal Care",
+      "product": "Tresemme shampoo",
+      "stock": 0,
+      "reorder_level": 20,
+      "updated_at": "2026-08-07T15:23:43"
     }
   }
 }
