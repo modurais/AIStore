@@ -3,8 +3,9 @@ title: Retail AI Shelf Intelligence
 emoji: "🛒"
 colorFrom: blue
 colorTo: teal
-sdk: docker
-app_port: 7860
+sdk: streamlit
+sdk_version: "1.37.1"
+app_file: realtime_app.py
 pinned: false
 ---
 
